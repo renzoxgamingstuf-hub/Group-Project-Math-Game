@@ -284,8 +284,8 @@ public class FirebaseAuthManager : MonoBehaviour
                     messageText.text = "it works";
                     PlayerPrefs.SetString("firebase_username", username);
                     yield return new WaitForSeconds(2f);
-                    Debug.Log("[FirebaseAuth] Loading scene: Explain scene");
-                    SceneManager.LoadScene("Explain scene");
+                    Debug.Log("[FirebaseAuth] Loading scene: menu");
+                    SceneManager.LoadScene("menu");
                 }
                 else
                 {
