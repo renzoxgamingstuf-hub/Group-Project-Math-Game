@@ -630,7 +630,8 @@ public class GameManager : MonoBehaviour
             string response = req.downloadHandler.text;
             
             // Find the highest document number
-            int nextSessionNumber = FindHighestSessionNumber(response) + 1;
+            int highestNum = FindHighestSessionNumber(response);
+            int nextSessionNumber = highestNum >= 0 ? highestNum + 1 : 1; // Start from 1, not 0
             
             // Create new document with that number
             yield return StartCoroutine(CreateSessionDocumentWithNumber(userDocumentId, nextSessionNumber));

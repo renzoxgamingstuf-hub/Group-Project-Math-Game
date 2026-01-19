@@ -267,12 +267,37 @@ public class FirebaseAuthManager : MonoBehaviour
                 
                 // Search for matching document in the response and check password
                 bool foundMatch = false;
+                bool allowedToPlay = false;
                 
                 // Check if document was found and password matches
                 if (resp.Contains("\"document\"") && resp.Contains($"\"{password}\"") && !resp.Contains("\"error\""))
                 {
                     Debug.Log("[FirebaseAuth] Found document with matching username and password");
                     foundMatch = true;
+                    
+                    // Check if allowed_to_play is "yes"
+                    allowedToPlay = false; // Default to false (blocked)
+                    if (resp.Contains("\"allowed_to_play\""))
+                    {
+                        int allowedIndex = resp.IndexOf("\"allowed_to_play\"");
+                        // Look for stringValue format: "allowed_to_play": { "stringValue": "yes" }
+                        int stringValueIndex = resp.IndexOf("\"stringValue\"", allowedIndex);
+                        if (stringValueIndex != -1)
+                        {
+                            int quoteStart = resp.IndexOf("\"", stringValueIndex + 14);
+                            if (quoteStart != -1)
+                            {
+                                int quoteEnd = resp.IndexOf("\"", quoteStart + 1);
+                                if (quoteEnd != -1)
+                                {
+                                    string allowedValue = resp.Substring(quoteStart + 1, quoteEnd - quoteStart - 1);
+                                    Debug.Log($"[FirebaseAuth] allowed_to_play value: {allowedValue}");
+                                    allowedToPlay = (allowedValue.ToLower() == "yes");
+                                }
+                            }
+                        }
+                    }
+                    Debug.Log($"[FirebaseAuth] allowedToPlay set to: {allowedToPlay}");
                     
                     // Extract childid from response
                     // Format: documents/childaccounts/{childid}
@@ -290,9 +315,9 @@ public class FirebaseAuthManager : MonoBehaviour
                     }
                 }
                 
-                Debug.Log($"[FirebaseAuth] Found matching user: {foundMatch}");
+                Debug.Log($"[FirebaseAuth] Found matching user: {foundMatch}, Allowed to play: {allowedToPlay}");
                 
-                if (foundMatch)
+                if (foundMatch && allowedToPlay)
                 {
                     Debug.Log("[FirebaseAuth] Login successful!");
                     messageText.text = "Login successful";
@@ -300,6 +325,11 @@ public class FirebaseAuthManager : MonoBehaviour
                     yield return new WaitForSeconds(2f);
                     Debug.Log("[FirebaseAuth] Loading scene: menu");
                     SceneManager.LoadScene("menu");
+                }
+                else if (foundMatch && !allowedToPlay)
+                {
+                    Debug.LogWarning("[FirebaseAuth] Login blocked: Parent has disabled this account");
+                    messageText.text = "Your account has been locked by your parent";
                 }
                 else
                 {

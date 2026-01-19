@@ -104,8 +104,12 @@ public class Scene1GameManager : MonoBehaviour
                 Debug.Log($"No existing lizzyprogress documents (query returned: {request.error})");
             }
 
-            // Next session number is highest + 1
+            // Next session number is highest + 1 (starts at 1, not 0)
             currentSessionNumber = highestNumber + 1;
+            if (currentSessionNumber == 0)
+            {
+                currentSessionNumber = 1; // First session is always 1
+            }
             Debug.Log($"Creating new session document: {currentSessionNumber}");
             
             yield return StartCoroutine(CreateSessionDocument());
