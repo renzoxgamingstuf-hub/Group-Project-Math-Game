@@ -1,0 +1,4 @@
+{
+  "webApiKey": "AIzaSyA9ismtJy5mFyXxtVqb_z5ekg-GcjY7eCI",
+  "customTokenEndpoint": "http://localhost:5000/createCustomToken"
+}

@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: 227fd462b18764d49acebf49bc356bb5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5627400465634919558
+    second: FINISH 1_0
+  - first:
+      213: 5566621186159153629
+    second: FINISH 1_1
+  - first:
+      213: -3459122537716906855
+    second: FINISH 1_2
+  - first:
+      213: -6939503593493626680
+    second: FINISH 1_3
+  - first:
+      213: 1686831793595867622
+    second: FINISH 1_4
+  - first:
+      213: -3934421754879891502
+    second: FINISH 1_5
+  - first:
+      213: -6645873139966494426
+    second: FINISH 1_6
+  - first:
+      213: 4268267367783743443
+    second: FINISH 1_7
+  - first:
+      213: -7729164355448881979
+    second: FINISH 1_8
+  - first:
+      213: -2261743650920740963
+    second: FINISH 1_9
+  - first:
+      213: -5582564795562172909
+    second: FINISH 1_10
+  - first:
+      213: 4219756144719697514
+    second: FINISH 1_11
+  - first:
+      213: 1246257842942094603
+    second: FINISH 1_12
+  - first:
+      213: -1658293125230244757
+    second: FINISH 1_13
+  - first:
+      213: -4418735349800280868
+    second: FINISH 1_14
+  - first:
+      213: -7297353821114181683
+    second: FINISH 1_15
+  - first:
+      213: 7810760967464969029
+    second: FINISH 1_16
+  - first:
+      213: 7699565664688811764
+    second: FINISH 1_17
+  - first:
+      213: -7203404272554536148
+    second: FINISH 1_18
+  - first:
+      213: -2218342693115791699
+    second: FINISH 1_19
+  - first:
+      213: 5010511111812061856
+    second: FINISH 1_20
+  - first:
+      213: 8938871450730826630
+    second: FINISH 1_21
+  - first:
+      213: 6282078379011910954
+    second: FINISH 1_22
+  - first:
+      213: 19735123185326758
+    second: FINISH 1_23
+  - first:
+      213: -576436699478575792
+    second: FINISH 1_24
+  - first:
+      213: -5842930508123752248
+    second: FINISH 1_25
+  - first:
+      213: 7777976061901010204
+    second: FINISH 1_26
+  - first:
+      213: 6127141336132289108
+    second: FINISH 1_27
+  - first:
+      213: 6723454178340348439
+    second: FINISH 1_28
+  - first:
+      213: 2744604179852403150
+    second: FINISH 1_29
+  - first:
+      213: 5202096443565266634
+    second: FINISH 1_30
+  - first:
+      213: 5728246384438472434
+    second: FINISH 1_31
+  - first:
+      213: 5402294615280672707
+    second: FINISH 1_32
+  - first:
+      213: 6194799928064546004
+    second: FINISH 1_33
+  - first:
+      213: -7162529380170002540
+    second: FINISH 1_34
+  - first:
+      213: -3373783084603819126
+    second: FINISH 1_35
+  - first:
+      213: 692787794976651219
+    second: FINISH 1_36
+  - first:
+      213: 8866987513114475486
+    second: FINISH 1_37
+  - first:
+      213: -2381807846624591887
+    second: FINISH 1_38
+  - first:
+      213: 5380442918346519142
+    second: FINISH 1_39
+  - first:
+      213: 8036481855621871142
+    second: FINISH 1_40
+  - first:
+      213: -2390339046043310424
+    second: FINISH 1_41
+  - first:
+      213: -1287961201143999397
+    second: FINISH 1_42
+  - first:
+      213: -805268073474713593
+    second: FINISH 1_43
+  - first:
+      213: -3642025076071071259
+    second: FINISH 1_44
+  - first:
+      213: -7618078801457532070
+    second: FINISH 1_45
+  - first:
+      213: -5472433975325949001
+    second: FINISH 1_46
+  - first:
+      213: -5140733812267357804
+    second: FINISH 1_47
+  - first:
+      213: -243917057072235589
+    second: FINISH 1_48
+  - first:
+      213: -4257787950096282337
+    second: FINISH 1_49
+  - first:
+      213: 3736908094290425546
+    second: FINISH 1_50
+  - first:
+      213: 5668766579887146052
+    second: FINISH 1_51
+  - first:
+      213: 3927675692543271807
+    second: FINISH 1_52
+  - first:
+      213: 474548316191078932
+    second: FINISH 1_53
+  - first:
+      213: -5757885275739889876
+    second: FINISH 1_54
+  - first:
+      213: -6936571756825670736
+    second: FINISH 1_55
+  - first:
+      213: -3293293394840670507
+    second: FINISH 1_56
+  - first:
+      213: 4271716171866957803
+    second: FINISH 1_57
+  - first:
+      213: 8118263591433809040
+    second: FINISH 1_58
+  - first:
+      213: -2753722696246838630
+    second: FINISH 1_59
+  - first:
+      213: -5280523767970654472
+    second: FINISH 1_60
+  - first:
+      213: -1874806620034148052
+    second: FINISH 1_61
+  - first:
+      213: -2244347880777320143
+    second: FINISH 1_62
+  - first:
+      213: 8001907272536314731
+    second: FINISH 1_63
+  - first:
+      213: -814643405677730472
+    second: FINISH 1_64
+  - first:
+      213: -5394916554921839546
+    second: FINISH 1_65
+  - first:
+      213: 3637933233081862110
+    second: FINISH 1_66
+  - first:
+      213: -5391974832358158862
+    second: FINISH 1_67
+  - first:
+      213: -2792791523369733863
+    second: FINISH 1_68
+  - first:
+      213: 6274606166269171985
+    second: FINISH 1_69
+  - first:
+      213: 3794778678156931295
+    second: FINISH 1_70
+  - first:
+      213: 1304589452054470824
+    second: FINISH 1_71
+  - first:
+      213: -726978087812180503
+    second: FINISH 1_72
+  - first:
+      213: 7072641748819089136
+    second: FINISH 1_73
+  - first:
+      213: 1722247817622237899
+    second: FINISH 1_74
+  - first:
+      213: -8499466199556941936
+    second: FINISH 1_75
+  - first:
+      213: 1786391925270430396
+    second: FINISH 1_76
+  - first:
+      213: -8115014145196928113
+    second: FINISH 1_77
+  - first:
+      213: 8000277416991899137
+    second: FINISH 1_78
+  - first:
+      213: 8503475496038068798
+    second: FINISH 1_79
+  - first:
+      213: 2487543322903790749
+    second: FINISH 1_80
+  - first:
+      213: -542847219935529358
+    second: FINISH 1_81
+  - first:
+      213: 72444759847185368
+    second: FINISH 1_82
+  - first:
+      213: -3377421591360356452
+    second: FINISH 1_83
+  - first:
+      213: 6535494241620466513
+    second: FINISH 1_84
+  - first:
+      213: -677843431877131020
+    second: FINISH 1_85
+  - first:
+      213: 5414931911044925614
+    second: FINISH 1_86
+  - first:
+      213: -3049788409669158737
+    second: FINISH 1_87
+  - first:
+      213: 3783361972945018701
+    second: FINISH 1_88
+  - first:
+      213: -5106566276366746106
+    second: FINISH 1_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FINISH 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684890388ea881e40800000000000000
+      internalID: 5627400465634919558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FINISH 1_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd11e20c97c904d40800000000000000
+      internalID: 5566621186159153629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FINISH 1_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99406d0116abeffc0800000000000000
+      internalID: -3459122537716906855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FINISH 1_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c00440bf3ee1bf90800000000000000
+      internalID: -6939503593493626680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FINISH 1_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1ed1d3494d86710800000000000000
+      internalID: 1686831793595867622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FINISH 1_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7a0d762402669c0800000000000000
+      internalID: -3934421754879891502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FINISH 1_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629bcfd279d15c3a0800000000000000
+      internalID: -6645873139966494426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FINISH 1_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df34278e8eeb3b30800000000000000
+      internalID: 4268267367783743443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FINISH 1_8
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccbbd638fd7cb490800000000000000
+      internalID: -7729164355448881979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9de872f5cd633e8428e0312f3605372b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      FINISH 1_0: 5627400465634919558
+      FINISH 1_1: 5566621186159153629
+      FINISH 1_2: -3459122537716906855
+      FINISH 1_3: -6939503593493626680
+      FINISH 1_4: 1686831793595867622
+      FINISH 1_5: -3934421754879891502
+      FINISH 1_6: -6645873139966494426
+      FINISH 1_7: 4268267367783743443
+      FINISH 1_8: -7729164355448881979
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

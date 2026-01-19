@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/logg.unity
+    guid: c27d50135d591c84097fc9c8e8f80396
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 1809cbf1196634442ac7fc342445bc6a
+  - enabled: 1
+    path: Assets/Scenes/Menu2.unity
+    guid: 4bdff88c156dd19429c20c28ac631420
+  - enabled: 1
+    path: Assets/Scenes/Scene 1.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/renzo game/scenes renzo/Explain scene.unity
+    guid: 0e02a26a1a284e749adf434c0eebb7cc
+  - enabled: 1
+    path: Assets/renzo game/scenes renzo/MemorieGame.unity
+    guid: 5f6aed182453a56488d36da31f465d6b
+  - enabled: 1
+    path: Assets/Scenes/FINISH scene.unity
+    guid: 6836402e0cca23c4caaeffcb8de45a10
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0

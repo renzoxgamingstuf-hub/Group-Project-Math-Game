@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "119329144836",
+    "firebase_url": "https://project5-arenanova-default-rtdb.firebaseio.com",
+    "project_id": "project5-arenanova",
+    "storage_bucket": "project5-arenanova.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119329144836:android:f181a9e37d136fa9c2b551",
+        "android_client_info": {
+          "package_name": "arena.nova"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9ismtJy5mFyXxtVqb_z5ekg-GcjY7eCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
