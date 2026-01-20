@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Group-Project-Math-Game-main.slnx"
+    "dotnet.defaultSolution": "Group-project-Math-game.slnx"
 }
